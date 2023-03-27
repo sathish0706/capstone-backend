@@ -14,7 +14,7 @@ database();
 
 app.use(
   cors({
-    origin: "https://polite-bombolone-162787.netlify.app",
+    origin: "http://localhost:3000",
     credentials: true,
   })
 );
